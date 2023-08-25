@@ -122,3 +122,50 @@ Key differences between JS and Dart:
 #### Class inheritance
 
 #### Abstract classes
+
+Must have, if it did not, the class would itself be abstract and therefore could not be instantiated.
+
+#### Interface
+
+Dart has **implicit interfaces**
+
+#### Mixins
+
+```
+class SeniorDeveloper extends Person with ProgrammingSkills,
+ManagementSkills
+```
+
+### Files and import
+
+### The enum type
+
+```
+  enum PersonType { student, employee }
+```
+
+### Using generics
+
+`<>`
+
+#### When and Why to use generics
+
+The use of generics can help a developer to maintain and keep collection behavior under control.
+
+When we use a collection without specifying the allowed element types, it is our responsibility to correctly insert elements of the expected type. This can lead to bugs when data of an incorrect type is placed in a collection or incorrect assumptions are made about the contents of a collection.
+
+#### Asynchronous programming
+
+Dart is a single-threaded programming language.
+
+`sleep`
+
+`delayed`
+
+## Dart Isolates
+
+Isolates allow the main function runs ahead of the function.
+
+# Section 2: The Flutter User Interface Everything Is a Widget
+
+#### Statefull/Stateless Widget
