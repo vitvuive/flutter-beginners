@@ -169,3 +169,41 @@ Isolates allow the main function runs ahead of the function.
 # Section 2: The Flutter User Interface Everything Is a Widget
 
 #### Statefull/Stateless Widget
+
+#### Inherited Widget
+
+#### The widget key property
+
+The **key** property allows you to preserve the state of a widget between rebuilds
+
+## Build in Widget
+
+#### Stream
+
+# Section 3: Developing Fully Featured Apps
+
+## Plugin
+
+Benefit of plugin
+
+- Code reuse
+- Many eyes
+- Low lovel integration
+
+Drawbacks
+
+- Version manager
+- Difficult to diagnose bugs
+- Break changes
+
+> You have also specified the version of the plugin using the plugin's semantic version. This locks your app to a specific version of the plugin, allowing you to test and release without dependency changes sneaking in. You may have noticed the ^ character before the version number. This specifies that you are happy to receive any patch version updates to the plugin.
+
+Common Issue
+
+- Plugin break change
+- Plugin not working
+- PR not merged
+- Inconsistent dependencies
+- Missing Plugin Exception
+
+## Popular Third Party Plugin
